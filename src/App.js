@@ -6,9 +6,9 @@ import Counter from './Counter';
 function App() {
   return (
     <div className="App">
-      <Header text="Licznik" />
+      <Header text="React - Counter" />
 
-      <Counter />
+      <Counter initValue={2000} initStep={1} />
     </div>
   );
 }
